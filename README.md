@@ -1,9 +1,11 @@
 # api documentation for  [paper (v0.10.3)](http://paperjs.org)  [![npm package](https://img.shields.io/npm/v/npmdoc-paper.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-paper) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-paper.svg)](https://travis-ci.org/npmdoc/node-npmdoc-paper)
 #### The Swiss Army Knife of Vector Graphics Scripting
 
-[![NPM](https://nodei.co/npm/paper.png?downloads=true)](https://www.npmjs.com/package/paper)
+[![NPM](https://nodei.co/npm/paper.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/paper)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-paper/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-paper_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-paper/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-paper/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-paper/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-paper/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-paper/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-paper/build/screenCapture.npmPackageListing.svg)
 
@@ -30,12 +32,10 @@
     "contributors": [
         {
             "name": "Jürg Lehni",
-            "email": "juerg@scratchdisk.com",
             "url": "http://scratchdisk.com"
         },
         {
             "name": "Jonathan Puckey",
-            "email": "jonathan@studiomoniker.com",
             "url": "http://studiomoniker.com"
         }
     ],
@@ -115,19 +115,16 @@
     "main": "dist/paper-full.js",
     "maintainers": [
         {
-            "name": "lehni",
-            "email": "juerg@lehni.org"
+            "name": "lehni"
         },
         {
-            "name": "puckey",
-            "email": "jonathan@studiomoniker.com"
+            "name": "puckey"
         }
     ],
     "name": "paper",
     "optionalDependencies": {
         "canvas": "^1.3.5"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/paperjs/paper.js.git"
@@ -146,22 +143,6 @@
     "version": "0.10.3"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module paper](#apidoc.module.paper)
-1.  number <span class="apidocSignatureSpan">paper.</span>_id
-1.  object <span class="apidocSignatureSpan">paper.</span>palettes
-1.  object <span class="apidocSignatureSpan">paper.</span>project
-1.  object <span class="apidocSignatureSpan">paper.</span>projects
-1.  object <span class="apidocSignatureSpan">paper.</span>settings
-1.  object <span class="apidocSignatureSpan">paper.</span>tools
-
-
-
-# <a name="apidoc.module.paper"></a>[module paper](#apidoc.module.paper)
 
 
 
