@@ -1,4 +1,7 @@
-# api documentation for  [paper (v0.10.3)](http://paperjs.org)  [![npm package](https://img.shields.io/npm/v/npmdoc-paper.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-paper) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-paper.svg)](https://travis-ci.org/npmdoc/node-npmdoc-paper)
+# npmdoc-paper
+
+#### basic api documentation for  [paper (v0.11.3)](http://paperjs.org)  [![npm package](https://img.shields.io/npm/v/npmdoc-paper.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-paper) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-paper.svg)](https://travis-ci.org/npmdoc/node-npmdoc-paper)
+
 #### The Swiss Army Knife of Vector Graphics Scripting
 
 [![NPM](https://nodei.co/npm/paper.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/paper)
@@ -23,7 +26,7 @@
         "jsdom": false,
         "jsdom/lib/jsdom/living/generated/utils": false,
         "source-map-support": false,
-        "./dist/node/window.js": false,
+        "./dist/node/self.js": false,
         "./dist/node/extend.js": false
     },
     "bugs": {
@@ -39,20 +42,17 @@
             "url": "http://studiomoniker.com"
         }
     ],
-    "dependencies": {
-        "canvas": "^1.3.5",
-        "jsdom": "^9.4.0",
-        "source-map-support": "^0.4.0"
-    },
+    "dependencies": {},
     "description": "The Swiss Army Knife of Vector Graphics Scripting",
     "devDependencies": {
         "acorn": "~0.5.0",
+        "canvas": "^1.3.5",
         "del": "^2.2.1",
         "gulp": "^3.9.1",
-        "gulp-bump": "^2.2.0",
         "gulp-cached": "^1.1.0",
         "gulp-git-streamed": "^1.8.0",
         "gulp-jshint": "^2.0.0",
+        "gulp-json-editor": "^2.2.1",
         "gulp-prepro": "^2.4.0",
         "gulp-qunits": "^2.1.1",
         "gulp-rename": "^1.2.2",
@@ -65,6 +65,7 @@
         "gulp-whitespace": "^0.1.0",
         "gulp-zip": "^3.2.0",
         "husky": "^0.11.4",
+        "jsdom": "^9.4.0",
         "jshint": "^2.9.2",
         "jshint-summary": "^0.4.0",
         "merge-stream": "^1.0.0",
@@ -74,13 +75,14 @@
         "require-dir": "^0.3.0",
         "resemblejs": "^2.2.1",
         "run-sequence": "^1.2.2",
+        "source-map-support": "^0.4.0",
         "stats.js": "0.16.0",
-        "straps": "^2.1.0"
+        "straps": "^3.0.1"
     },
     "directories": {},
     "dist": {
-        "shasum": "d0578c5c218411b6d3f42a0fcb50b11a8511835e",
-        "tarball": "https://registry.npmjs.org/paper/-/paper-0.10.3.tgz"
+        "shasum": "f9206ccbe1026d2de50bcc63e06e59af98808ebf",
+        "tarball": "https://registry.npmjs.org/paper/-/paper-0.11.3.tgz"
     },
     "engines": {
         "node": ">=4.0.0 <8.0.0"
@@ -93,7 +95,7 @@
         "LICENSE.txt",
         "README.md"
     ],
-    "gitHead": "3379a81b852bd6ec9446e628c212105ebacf21f0",
+    "gitHead": "48c8eacf0b8dacfd84e64117b5a80ec76aea835f",
     "homepage": "http://paperjs.org",
     "keywords": [
         "vector",
@@ -109,25 +111,21 @@
         "canvas",
         "svg",
         "paper",
-        "paper.js"
+        "paper.js",
+        "paperjs"
     ],
     "license": "MIT",
     "main": "dist/paper-full.js",
     "maintainers": [
         {
             "name": "lehni"
-        },
-        {
-            "name": "puckey"
         }
     ],
     "name": "paper",
-    "optionalDependencies": {
-        "canvas": "^1.3.5"
-    },
+    "optionalDependencies": {},
     "repository": {
         "type": "git",
-        "url": "git://github.com/paperjs/paper.js.git"
+        "url": "git+https://github.com/paperjs/paper.js.git"
     },
     "scripts": {
         "build": "gulp build",
@@ -140,7 +138,8 @@
         "test": "gulp test",
         "zip": "gulp zip"
     },
-    "version": "0.10.3"
+    "version": "0.11.3",
+    "bin": {}
 }
 ```
 
